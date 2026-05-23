@@ -8,6 +8,7 @@ import appCss from "../styles.css?url";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { BookingProvider } from "@/components/site/BookingModal";
+import { Toaster } from "@/components/ui/sonner";
 
 function NotFoundComponent() {
   return (
@@ -78,6 +79,7 @@ function RootComponent() {
           <Outlet />
         </main>
         <Footer />
+        <Toaster richColors position="bottom-right" />
       </BookingProvider>
     </QueryClientProvider>
   );
