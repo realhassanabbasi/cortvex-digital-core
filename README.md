@@ -1,1 +1,139 @@
-IyBDb3J0dmV4IERpZ2l0YWwgQ29yZQoKQSBtb2Rlcm4sIHByZW1pdW0gZGlnaXRhbC1hZ2VuY3kgd2Vic2l0ZSBmb3IgKipDb3J0dmV4Kiog4oCUIGJ1aWx0IHdpdGggUmVhY3QsIFRhblN0YWNrIFN0YXJ0LCBzaGFkY24vdWksIGFuZCBUYWlsd2luZCBDU1MsIGRlcGxveWVkIG9uIENsb3VkZmxhcmUgV29ya2Vycy4KCkNvcnR2ZXggaGVscHMgYnVzaW5lc3NlcyBkZXNpZ24sIGJ1aWxkLCBhdXRvbWF0ZSwgbWFya2V0LCBhbmQgc2NhbGUg4oCUIHRocm91Z2ggbW9kZXJuIHdlYnNpdGVzLCBBSSBhdXRvbWF0aW9uLCBjaGF0Ym90cywgdm9pY2UgYm90cywgYXBwcywgU0VPLCBtYXJrZXRpbmcsIGFuZCBzb2NpYWwgbWVkaWEuCgotLS0KCiMjIOKcqCBGZWF0dXJlcwoKIyMjIFBhZ2VzICg5IHJvdXRlcykKLSAqKkhvbWUgKGAvYCkqKiDigJQgSGVybywgdHJ1c3RlZC1ieSB0YWdzLCBzZXJ2aWNlcyBwcmV2aWV3LCBBSSBhdXRvbWF0aW9uIGhpZ2hsaWdodCwgZmVhdHVyZWQgd29yaywgd2h5LUNvcnR2ZXgsIHByb2Nlc3Mgb3ZlcnZpZXcsIHRlc3RpbW9uaWFscywgcHJpY2luZyBwcmV2aWV3LCBGQVEsIGZpbmFsIENUQQotICoqU2VydmljZXMgKGAvc2VydmljZXNgKSoqIOKAlCBTZXJ2aWNlcyBvdmVydmlldyBncmlkIHdpdGggZGV0YWlsZWQgcGVyLXNlcnZpY2Ugc2VjdGlvbnMgYW5kIGFuY2hvciBsaW5rcwotICoqV29yayAoYC93b3JrYCkqKiDigJQgUG9ydGZvbGlvIHdpdGggZmlsdGVyIHRhYnMsIHByb2plY3QgY2FyZHMsIGFuZCBhIHJldXNhYmxlIGNhc2Utc3R1ZHkgbGF5b3V0Ci0gKipQcm9jZXNzIChgL3Byb2Nlc3NgKSoqIOKAlCBTaXgtc3RlcCB2ZXJ0aWNhbCBwcm9jZXNzIHRpbWVsaW5lCi0gKipQcmljaW5nIChgL3ByaWNpbmdgKSoqIOKAlCBTdGFydGVyIC8gR3Jvd3RoIC8gU2NhbGUgcGxhbnMgd2l0aCBhIGNvbXBhcmlzb24gdGFibGUKLSAqKkFib3V0IChgL2Fib3V0YCkqKiDigJQgTWlzc2lvbiwgdmFsdWVzLCBhbmQgdGVhbSBzZWN0aW9ucwotICoqQmxvZyAoYC9ibG9nYCkqKiDigJQgQXJ0aWNsZSBsaXN0aW5nICg4IHBsYWNlaG9sZGVyIGFydGljbGVzIHdpdGggY2F0ZWdvcnksIGV4Y2VycHQsIHJlYWRpbmcgdGltZSkKLSAqKkNvbnRhY3QgKGAvY29udGFjdGApKiog4oCUIENvbnRhY3QgZm9ybSAoc2VydmljZSwgYnVkZ2V0LCB0aW1lbGluZSkgd2l0aCBhIEJvb2stYS1NZWV0aW5nIHNpZGUgY2FyZCBhbmQgRkFRCi0gKipCb29rIChgL2Jvb2tgKSoqIOKAlCBEZWRpY2F0ZWQgYm9va2luZyBwYWdlIHdpdGggNCBtZWV0aW5nLXR5cGUgY2FyZHMgYW5kIGFuIGVtYmVkIHBsYWNlaG9sZGVyCgojIyMgU2hhcmVkIHNpdGUgY29tcG9uZW50cyAoYHNyYy9jb21wb25lbnRzL3NpdGUvYCkKfCBDb21wb25lbnQgfCBQdXJwb3NlIHwKfC0tLXwtLS18CnwgYE5hdmJhci50c3hgIHwgUHJlbWl1bSByZXNwb25zaXZlIG5hdmJhciDigJQgc2hyaW5rcyBhbmQgZ2xhc3NpZmllcyBvbiBzY3JvbGwsIGFuaW1hdGVkIG1vYmlsZSBtZW51LCBCb29rIGEgTWVldGluZyBDVEEgfAp8IGBGb290ZXIudHN4YCB8IEZvb3RlciB3aXRoIHF1aWNrIGxpbmtzLCBzZXJ2aWNlcywgY29udGFjdCwgYW5kIHNvY2lhbHMgfAp8IGBCb29raW5nTW9kYWwudHN4YCB8IEdsb2JhbCBib29raW5nIHByb3ZpZGVyLCBtb2RhbCB3aXRoIDQgbWVldGluZyB0eXBlcywgcmV1c2FibGUgYEJvb2tCdXR0b25gIHwKfCBgUGFnZUhlYWRlci50c3hgIHwgUmV1c2FibGUgcGFnZSBoZWFkZXIgKGV5ZWJyb3csIGhlYWRsaW5lLCBzdWJ0aXRsZSkgfAp8IGBDdGFCYW5uZXIudHN4YCB8IFJldXNhYmxlIHByaW1hcnkgY2FsbC10by1hY3Rpb24gYmFubmVyIHVzZWQgYWNyb3NzIHBhZ2VzIHwKfCBgSGVyb1Zpc3VhbC50c3hgIHwgTGF5ZXJlZCBoZXJvIHZpc3VhbCDigJQgd2Vic2l0ZSBtb2NrdXAsIEFJIHdvcmtmbG93IG5vZGVzLCBjaGF0Ym90LCB2b2ljZSB3YXZlZm9ybSwgYW5hbHl0aWNzLCBzb2NpYWwgY2FyZHMgfAp8IGBMb2dvLnRzeGAgfCBSZXVzYWJsZSBDb3J0dmV4IHdvcmRtYXJrIGluIE1va290by1zdHlsZSB0eXBvZ3JhcGh5IHwKClRoZSByb290IHJvdXRlIChgc3JjL3JvdXRlcy9fX3Jvb3QudHN4YCkgYWxzbyBzaGlwcyBicmFuZGVkICoqNDA0KiogYW5kIGVycm9yIHN0YXRlcywgZnVsbCBtZXRhL09HIHRhZ3MsIGFuZCBhIGdsb2JhbCB0b2FzdCBzeXN0ZW0uCgojIyMgRGVzaWduIHN5c3RlbQotIFByaW1hcnkgYnJhbmQgY29sb3IgYCMxODAwQURgIHdpdGggYW4gZWxlY3RyaWMtY3lhbiBhY2NlbnQKLSBUeXBvZ3JhcGh5OiBJbnRlciArIFBsdXMgSmFrYXJ0YSBTYW5zICsgT3JiaXRyb24gKE1va290by1zdHlsZSBsb2dvKQotIFV0aWxpdHkgY2xhc3NlczogYGV5ZWJyb3dgLCBgY2FyZC1zb2Z0YCwgYGdyaWQtYmdgLCBjdXN0b20gc2hhZG93cyBhbmQgZ3JhZGllbnRzCi0gQW5pbWF0aW9uczogZmFkZSwgZmxvYXQsIGFuZCB3YXZlIGtleWZyYW1lcwotIEFsbCBzaXRlIGNvcHkgY2VudHJhbGl6ZWQgaW4gYHNyYy9saWIvc2l0ZS1kYXRhLnRzYCAoc2VydmljZXMsIHByb2Nlc3Mgc3RlcHMsIHByb2plY3RzLCB0ZXN0aW1vbmlhbHMsIEZBUXMpCgotLS0KCiMjIPCfm6AgVGVjaCBzdGFjawoKfCBMYXllciB8IFRlY2hub2xvZ3kgfAp8LS0tfC0tLXwKfCBGcmFtZXdvcmsgfCBbVGFuU3RhY2sgU3RhcnRdKGh0dHBzOi8vdGFuc3RhY2suY29tL3N0YXJ0KSAoU1NSLCBmaWxlLWJhc2VkIHJvdXRpbmcpIHwKfCBVSSBsaWJyYXJ5IHwgUmVhY3QgMTkgfAp8IFJvdXRpbmcgfCBUYW5TdGFjayBSb3V0ZXIgKGZpbGUgcm91dGVzIGluIGBzcmMvcm91dGVzL2ApIHwKfCBEYXRhIHwgVGFuU3RhY2sgUmVhY3QgUXVlcnkgfAp8IFN0eWxpbmcgfCBUYWlsd2luZCBDU1MgNCAoYEB0YWlsd2luZGNzcy92aXRlYCkgfAp8IENvbXBvbmVudHMgfCBzaGFkY24vdWkgKFJhZGl4IHByaW1pdGl2ZXMpICsgTHVjaWRlIGljb25zIHwKfCBGb3JtcyB8IFJlYWN0IEhvb2sgRm9ybSArIFpvZCB2YWxpZGF0aW9uIHwKfCBCdWlsZCB8IFZpdGUgNyB8CnwgUGFja2FnZSBtYW5hZ2VyIHwgQnVuIHwKfCBEZXBsb3ltZW50IHwgQ2xvdWRmbGFyZSBXb3JrZXJzIChgd3JhbmdsZXIuanNvbmNgLCBgQGNsb3VkZmxhcmUvdml0ZS1wbHVnaW5gKSB8CnwgQ29uZmlnIHwgVHlwZVNjcmlwdCwgRVNMaW50LCBQcmV0dGllciB8CgotLS0KCiMjIPCfmoAgR2V0dGluZyBzdGFydGVkCgoqKlByZXJlcXVpc2l0ZXM6KiogW0J1bl0oaHR0cHM6Ly9idW4uc2gpIGluc3RhbGxlZC4KCmBgYGJhc2gKIyBJbnN0YWxsIGRlcGVuZGVuY2llcwpidW4gaW5zdGFsbAoKIyBTdGFydCB0aGUgZGV2IHNlcnZlcgpidW4gcnVuIGRldgpgYGAKCk9wZW4gdGhlIGFwcCBpbiB5b3VyIGJyb3dzZXIgYW5kIGVkaXQgYHNyYy9yb3V0ZXMvYCB0byBzZWUgY2hhbmdlcyBob3QtcmVsb2FkLgoKIyMjIEJ1aWxkICYgcHJldmlldwoKYGBgYmFzaApidW4gcnVuIGJ1aWxkICAgICAgIyBwcm9kdWN0aW9uIGJ1aWxkCmJ1biBydW4gcHJldmlldyAgICAjIHByZXZpZXcgdGhlIHByb2R1Y3Rpb24gYnVpbGQgbG9jYWxseQpgYGAKCiMjIyBEZXBsb3kgdG8gQ2xvdWRmbGFyZSBXb3JrZXJzCgpgYGBiYXNoCmJ1biBydW4gYnVpbGQKbnB4IHdyYW5nbGVyIGRlcGxveQpgYGAKCiMjIyBDb2RlIHF1YWxpdHkKCmBgYGJhc2gKYnVuIHJ1biBsaW50ICAgICAgIyBFU0xpbnQKYnVuIHJ1biBmb3JtYXQgICAgIyBQcmV0dGllcgpgYGAKCi0tLQoKIyMg8J+TgSBQcm9qZWN0IHN0cnVjdHVyZQoKYGBgCmNvcnR2ZXgtZGlnaXRhbC1jb3JlLwrilJzilIDilIAgc3JjLwrilIIgICDilJzilIDilIAgcm91dGVzLyAgICAgICAgICAgICAgIyBGaWxlLWJhc2VkIHBhZ2VzOiBfX3Jvb3QsIGluZGV4LCBhYm91dCwgYmxvZywK4pSCICAg4pSCICAgICAgICAgICAgICAgICAgICAgICAgIyBib29rLCBjb250YWN0LCBwcmljaW5nLCBwcm9jZXNzLCBzZXJ2aWNlcywgd29yawrilIIgICDilJzilIDilIAgY29tcG9uZW50cy8K4pSCICAg4pSCICAg4pSc4pSA4pSAIHNpdGUvICAgICAgICAgICAgIyBBZ2VuY3kgY29tcG9uZW50czogTmF2YmFyLCBGb290ZXIsIEJvb2tpbmdNb2RhbCwK4pSCICAg4pSCICAg4pSCICAgICAgICAgICAgICAgICAgICAjIFBhZ2VIZWFkZXIsIEN0YUJhbm5lciwgSGVyb1Zpc3VhbCwgTG9nbwrilIIgICDilIIgICDilJTilIDilIAgdWkvICAgICAgICAgICAgICAjIHNoYWRjbi91aSBwcmltaXRpdmVzIChSYWRpeC1iYXNlZCkK4pSCICAg4pSc4pSA4pSAIGxpYi8K4pSCICAg4pSCICAg4pSU4pSA4pSAIHNpdGUtZGF0YS50cyAgICAgIyBDZW50cmFsaXplZCBjb250ZW50OiBzZXJ2aWNlcywgc3RlcHMsIHByb2plY3RzLArilIIgICDilIIgICAgICAgICAgICAgICAgICAgICAgICAjIHRlc3RpbW9uaWFscywgRkFRcwrilIIgICDilJTilIDilIAgc3R5bGVzLmNzcyAgICAgICAgICAgIyBEZXNpZ24gdG9rZW5zLCB1dGlsaXRpZXMsIGtleWZyYW1lcwrilJzilIDilIAgY2hhbmdlbG9nLm1kICAgICAgICAgICAgICMgQnVpbGQgaGlzdG9yeSBhbmQgY29tcG9uZW50IGludmVudG9yeQrilJzilIDilIAgd3JhbmdsZXIuanNvbmMgICAgICAgICAgICMgQ2xvdWRmbGFyZSBXb3JrZXJzIGRlcGxveSBjb25maWcK4pSc4pSA4pSAIGNvbXBvbmVudHMuanNvbiAgICAgICAgICAjIHNoYWRjbi91aSBjb25maWcK4pSc4pSA4pSAIHZpdGUuY29uZmlnLnRzCuKUlOKUgOKUgCBwYWNrYWdlLmpzb24KYGBgCgotLS0KCiMjIPCfl7ogTm90ZXMgJiByb2FkbWFwCgotIFRoZSBib29raW5nIGZsb3cgY3VycmVudGx5IHVzZXMgYSBwbGFjZWhvbGRlciBsaW5rIOKAlCBjb25uZWN0IGEgcmVhbCAqKkNhbC5jb20qKiBvciBDYWxlbmRseSBlbWJlZCBpbiBgc3JjL2NvbXBvbmVudHMvc2l0ZS9Cb29raW5nTW9kYWwudHN4YCBhbmQgYHNyYy9yb3V0ZXMvYm9vay50c3hgLgotIEJsb2cgY2FyZHMgYXJlIHN0YXRpYyBwbGFjZWhvbGRlcnM7IGFydGljbGUgZGV0YWlsIHJvdXRlcyAoYC9ibG9nLyRzbHVnYCkgYXJlIHRoZSBuYXR1cmFsIG5leHQgc3RlcC4KLSBUaGUgY29udGFjdCBmb3JtIGNvbGxlY3RzIGZpZWxkcyBidXQgaGFzIG5vIGJhY2tlbmQgZW5kcG9pbnQgeWV0LgotIFRlYW0gc2VjdGlvbiBvbiBgL2Fib3V0YCB1c2VzIHBsYWNlaG9sZGVyIHByb2ZpbGVzIOKAlCBzd2FwIGluIHJlYWwgdGVhbSBkYXRhIHZpYSBgc3JjL2xpYi9zaXRlLWRhdGEudHNgLgoKLS0tCgojIyDwn5GkIEF1dGhvcgoKKipIYXNzYW4gQWJiYXNpKiog4oCUIEFJIEVuZ2luZWVyICYgR3JhcGhpYyBEZXNpZ25lcgotIEdpdEh1YjogW0BoYXNzYW5hYmJhc2kzMTNdKGh0dHBzOi8vZ2l0aHViLmNvbS9oYXNzYW5hYmJhc2kzMTMpCgotLS0KCipCdWlsdCB3aXRoIFRhblN0YWNrIFN0YXJ0IMK3IFJlYWN0IDE5IMK3IHNoYWRjbi91aSDCtyBDbG91ZGZsYXJlIFdvcmtlcnMqCg==
+# Cortvex Digital Core
+
+A modern, premium digital-agency website for **Cortvex** — built with React, TanStack Start, shadcn/ui, and Tailwind CSS, deployed on Cloudflare Workers.
+
+Cortvex helps businesses design, build, automate, market, and scale — through modern websites, AI automation, chatbots, voice bots, apps, SEO, marketing, and social media.
+
+---
+
+## ✨ Features
+
+### Pages (9 routes)
+- **Home (`/`)** — Hero, trusted-by tags, services preview, AI automation highlight, featured work, why-Cortvex, process overview, testimonials, pricing preview, FAQ, final CTA
+- **Services (`/services`)** — Services overview grid with detailed per-service sections and anchor links
+- **Work (`/work`)** — Portfolio with filter tabs, project cards, and a reusable case-study layout
+- **Process (`/process`)** — Six-step vertical process timeline
+- **Pricing (`/pricing`)** — Starter / Growth / Scale plans with a comparison table
+- **About (`/about`)** — Mission, values, and team sections
+- **Blog (`/blog`)** — Article listing (8 placeholder articles with category, excerpt, reading time)
+- **Contact (`/contact`)** — Contact form (service, budget, timeline) with a Book-a-Meeting side card and FAQ
+- **Book (`/book`)** — Dedicated booking page with 4 meeting-type cards and an embed placeholder
+
+### Shared site components (`src/components/site/`)
+| Component | Purpose |
+|---|---|
+| `Navbar.tsx` | Premium responsive navbar — shrinks and glassifies on scroll, animated mobile menu, Book a Meeting CTA |
+| `Footer.tsx` | Footer with quick links, services, contact, and socials |
+| `BookingModal.tsx` | Global booking provider, modal with 4 meeting types, reusable `BookButton` |
+| `PageHeader.tsx` | Reusable page header (eyebrow, headline, subtitle) |
+| `CtaBanner.tsx` | Reusable primary call-to-action banner used across pages |
+| `HeroVisual.tsx` | Layered hero visual — website mockup, AI workflow nodes, chatbot, voice waveform, analytics, social cards |
+| `Logo.tsx` | Reusable Cortvex wordmark in Mokoto-style typography |
+
+The root route (`src/routes/__root.tsx`) also ships branded **404** and error states, full meta/OG tags, and a global toast system.
+
+### Design system
+- Primary brand color `#1800AD` with an electric-cyan accent
+- Typography: Inter + Plus Jakarta Sans + Orbitron (Mokoto-style logo)
+- Utility classes: `eyebrow`, `card-soft`, `grid-bg`, custom shadows and gradients
+- Animations: fade, float, and wave keyframes
+- All site copy centralized in `src/lib/site-data.ts` (services, process steps, projects, testimonials, FAQs)
+
+---
+
+## 🛠 Tech stack
+
+| Layer | Technology |
+|---|---|
+| Framework | [TanStack Start](https://tanstack.com/start) (SSR, file-based routing) |
+| UI library | React 19 |
+| Routing | TanStack Router (file routes in `src/routes/`) |
+| Data | TanStack React Query |
+| Styling | Tailwind CSS 4 (`@tailwindcss/vite`) |
+| Components | shadcn/ui (Radix primitives) + Lucide icons |
+| Forms | React Hook Form + Zod validation |
+| Build | Vite 7 |
+| Package manager | Bun |
+| Deployment | Cloudflare Workers (`wrangler.jsonc`, `@cloudflare/vite-plugin`) |
+| Config | TypeScript, ESLint, Prettier |
+
+---
+
+## 🚀 Getting started
+
+**Prerequisites:** [Bun](https://bun.sh) installed.
+
+```bash
+# Install dependencies
+bun install
+
+# Start the dev server
+bun run dev
+```
+
+Open the app in your browser and edit `src/routes/` to see changes hot-reload.
+
+### Build & preview
+
+```bash
+bun run build      # production build
+bun run preview    # preview the production build locally
+```
+
+### Deploy to Cloudflare Workers
+
+```bash
+bun run build
+npx wrangler deploy
+```
+
+### Code quality
+
+```bash
+bun run lint      # ESLint
+bun run format    # Prettier
+```
+
+---
+
+## 📁 Project structure
+
+```
+cortvex-digital-core/
+├── src/
+│   ├── routes/              # File-based pages: __root, index, about, blog,
+│   │                        # book, contact, pricing, process, services, work
+│   ├── components/
+│   │   ├── site/            # Agency components: Navbar, Footer, BookingModal,
+│   │   │                    # PageHeader, CtaBanner, HeroVisual, Logo
+│   │   └── ui/              # shadcn/ui primitives (Radix-based)
+│   ├── lib/
+│   │   └── site-data.ts     # Centralized content: services, steps, projects,
+│   │                        # testimonials, FAQs
+│   └── styles.css           # Design tokens, utilities, keyframes
+├── changelog.md             # Build history and component inventory
+├── wrangler.jsonc           # Cloudflare Workers deploy config
+├── components.json          # shadcn/ui config
+├── vite.config.ts
+└── package.json
+```
+
+---
+
+## 🗺 Notes & roadmap
+
+- The booking flow currently uses a placeholder link — connect a real **Cal.com** or Calendly embed in `src/components/site/BookingModal.tsx` and `src/routes/book.tsx`.
+- Blog cards are static placeholders; article detail routes (`/blog/$slug`) are the natural next step.
+- The contact form collects fields but has no backend endpoint yet.
+- Team section on `/about` uses placeholder profiles — swap in real team data via `src/lib/site-data.ts`.
+
+---
+
+## 👤 Author
+
+**Hassan Abbasi** — AI Engineer & Graphic Designer
+- GitHub: [@hassanabbasi313](https://github.com/hassanabbasi313)
+
+---
+
+*Built with TanStack Start · React 19 · shadcn/ui · Cloudflare Workers*
